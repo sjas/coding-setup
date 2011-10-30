@@ -1,0 +1,25 @@
+Meinst du die Eingabeaufforderung mit cmd?
+
+Dann: CMD /K "CD \verzeichnis"
+
+Wenn du auf die Eigenschaften der Verknüpfung der Eingabeaufforderung gehst (Rechtsklick) dann gibt es dort das Register "Verknüpfung". Wenn du hier im Feld "Ausführen in" einen Pfad einträgst, wird beim Aufruf von CMD.exe der eben Eingetragene Pfad angegeben.
+
+
+####################################################
+
+Um für JEDE Eingabeaufforderung den Startpfad zu ändern kann man im Registry-Schlüssel
+
+"HKEY_CURRENT_USER\Software\Microsoft\Command Processor"
+
+einen neuen Wert (Zeichenfolge oder erweiterbare Zeichenfolge) mit dem Namen
+
+"AutoRun"
+
+erstellen und in diesen den Befehl zum Wechsel in das gewünschte Verzeichnis eintragen, also z.B.
+
+pushd "X:\Mein Arbeitsverzeichnis"
+
+#####################################################
+
+HOME / PATH Erklärung:
+http://www.xpdiskussion.com/archive/index.php/t-31954.html

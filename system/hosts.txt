@@ -1,0 +1,11 @@
+
+
+
+die hosts liegt in 
+	
+	c:\windows\system32\drivers\etc
+
+	dann 
+		"vim hosts"
+
+				:D

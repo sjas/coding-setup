@@ -1,0 +1,14 @@
+[color]
+	ui = auto
+[user]
+	name = sjas
+	email = set_email_from_github_here 
+[gui]
+	fontdiff = -family \"Envy Code R\" -size 8 -weight normal -slant roman -underline 0 -overstrike 0
+[alias]
+	amend = commit --amend -C HEAD
+[core]
+	autocrlf = false
+[github]
+	user = sjas
+	token = api_token_to_be_inserted_from_github
