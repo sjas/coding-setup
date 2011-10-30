@@ -48,6 +48,12 @@ imap <right> <nop>
 
 set showmode " display the current mode
 
+" use tempdirs for backupfiles
+set backupdir=$TEMP
+set directory=$TEMP
+
+
+
 set cursorline " highlight current line
 hi cursorline guibg=#333333 " highlight bg color of current line
 hi CursorColumn guibg=#333333 " highlight cursor
