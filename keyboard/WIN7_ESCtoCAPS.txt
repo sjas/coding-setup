@@ -1,0 +1,29 @@
+
+=========================================================
+HOW TO CHANGE THE BEHAVIOUR OF YOUR CAPS LOCK KEY IN WIN7
+=========================================================
+
+Registry Edit
+
+---------------------------------------------------------
+WARNING: Editing your Windows registry may cause unintended side effects that render your system inoperable. Although this tip has worked in the past for some people, there is no guarantee that it will work for you. Use with caution, and at your own risk.
+---------------------------------------------------------
+
+Before trying the following, you should run regedit.exe and inspect the relevant registry keys, and export them for a backup. Make sure you know how to remove the registry changes if they cause trouble.
+
+For the current user: To map CapsLock to Escape, and ScrollLock to CapsLock, create file (for example) keys.reg containing:
+
+REGEDIT4
+[HKEY_CURRENT_USER\Keyboard Layout]
+"Scancode Map"=hex:00,00,00,00,00,00,00,00,03,00,00,00,3a,00,46,00,01,00,3a,00,00,00,00,00
+
+Use Explorer to double-click the file to import the value to the registry. To apply the changes, log off and log on. Then, pressing key Esc will generate Escape as normal, pressing CapsLock will also generate Escape, and pressing ScrollLock will generate CapsLock (and you cannot generate ScrollLock).
+
+Alternatively, for the change to apply to all users, run the following reg file and reboot:
+
+REGEDIT4
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout]
+"Scancode Map"=hex:00,00,00,00,00,00,00,00,03,00,00,00,3a,00,46,00,01,00,3a,00,00,00,00,00
+
+To restore the keyboard, run regedit.exe and delete the "Scancode Map" entry from HKEY_CURRENT_USER (and log off/on), or from HKEY_LOCAL_MACHINE (and reboot), depending on which section of the registry you changed. 
+,
