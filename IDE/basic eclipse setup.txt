@@ -17,10 +17,11 @@ ECLIPE SETUP FROM SCRATCH (working for Eclipse 3.6 and 3.7)
 			set 'Binding' to 'Ctrl+Alt+Shift+V'
 			set 'When' to 'In Windows'
    COLOR THEME - http://eclipse-color-theme.github.com/update
-   	Use Theme: 'New Zenburn' if available, else use 'Retta'.
+   	Use Theme: 
 		PREFERENCES:
 		General -> Appearance -> Color Theme:
 		'Retta' or 'New Zenburn'
+		(Import the NewZenburn_to_import.xml from within the Preferences.)
 
 5. Workspace settings:
    PREFERENCES:

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<colorTheme id="517" name="New Zenburn" modified="2011-03-07 10:03:35" author="viazenetti">
+    <searchResultIndication color="#38566F" />
+    <filteredSearchResultIndication color="#38566F" />
+    <occurrenceIndication color="#000000" />
+    <writeOccurrenceIndication color="#000000" />
+    <findScope color="#111111" />
+    <deletionIndication color="#D24F4F" bold="false" />
+    <sourceHoverBackground color="#000000" />
+    <singleLineComment color="#7F9F7F" />
+    <multiLineComment color="#7F9F7F" italic="true" />
+    <commentTaskTag color="#659F65" italic="true" />
+    <javadoc color="#659F65" italic="true" />
+    <javadocLink color="#659F65" italic="false" />
+    <javadocTag color="#659F65" bold="false" italic="false" />
+    <javadocKeyword color="#659F65" italic="true" />
+    <class color="#D25B5B" bold="false" underline="false" strikethrough="false" />
+    <interface color="#D197D9" />
+    <method color="#F2F2DF" />
+    <methodDeclaration color="#F2F2DF" />
+    <bracket color="#8FAF9F" />
+    <number color="#EDDD3D" />
+    <string color="#CC9393" />
+    <operator color="#D27522" />
+    <keyword color="#DFC47D" bold="true" />
+    <annotation color="#000000" />
+    <staticMethod color="#F2F2DF" bold="false" />
+    <localVariable color="#CEDF99" bold="false" />
+    <localVariableDeclaration color="#CEDF99" />
+    <field color="#CEDF99" />
+    <staticField color="#EFC090" />
+    <staticFinalField color="#EFC090" />
+    <deprecatedMember color="#D24F4F" underline="false" strikethrough="true" />
+    <enum color="#CEDF99" />
+    <inheritedMethod color="#F2F2DF" />
+    <abstractMethod color="#F2F2DF" />
+    <parameterVariable color="#CC9393" />
+    <typeArgument color="#BFA4A4" />
+    <typeParameter color="#BFA4A4" />
+    <constant color="#DFC47D" />
+    <background color="#3F3F3F" />
+    <currentLine color="#2B2B2B" />
+    <foreground color="#DDDDCC" />
+    <lineNumber color="#8A8A8A" />
+    <selectionBackground color="#000066" />
+    <selectionForeground color="#DDDDCC" />
+</colorTheme>
