@@ -100,3 +100,11 @@ ECLIPE SETUP FROM SCRATCH (working for Eclipse 3.6 and 3.7)
 		http://stackoverflow.com/questions/3400185/svn-key-bindings-not-working-in-eclipse
 		)
 
+10. Eclipse Editor Layout
+    * close Task List
+    * open Tasks (Alt+Shift+Q, K)
+    * put Outline Window below Project Explorer
+    * make Package Explorer hierarchical:
+    	** upper right triangle in Package Explorer / View Menu:
+	*** Package Presentation
+	**** Hierarchical
