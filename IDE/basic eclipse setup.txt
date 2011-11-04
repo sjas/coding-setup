@@ -108,3 +108,10 @@ ECLIPE SETUP FROM SCRATCH (working for Eclipse 3.6 and 3.7)
     	** upper right triangle in Package Explorer / View Menu:
 	*** Package Presentation
 	**** Hierarchical
+
+11. Debugging
+    * Show the Monitor-Objects for Debugging Multithread-Stuff:
+    		Open Debug Perspective (Alt+O+O, choose 'Debug')
+		upper right triangle of Debug window in Eclipse:
+			Java >> Show Monitors
+    * Show the Heap size in the status bar => shown above as 'show heap'
