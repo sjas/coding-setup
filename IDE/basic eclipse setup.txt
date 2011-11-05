@@ -115,3 +115,5 @@ ECLIPE SETUP FROM SCRATCH (working for Eclipse 3.6 and 3.7)
 		upper right triangle of Debug window in Eclipse:
 			Java >> Show Monitors
     * Show the Heap size in the status bar => shown above as 'show heap'
+    * Adding new perspectives:
+    		Click on the 'Open new perspectives' Button at top right
