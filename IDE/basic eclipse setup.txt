@@ -27,7 +27,9 @@ ECLIPE SETUP FROM SCRATCH (working for Eclipse 3.6 and 3.7)
    PREFERENCES:
    refreshes and saves:
    	General -> Workspace:
-		'Refresh automatically'
+		'Build automatically'
+		'Refresh using native hooks or polling'
+		'Refresh on access'
 		'Save automatically before build'
    workspace encoding utf8 + unix line endings to avoid character set problems in group work:
 	General -> Workspace: 'Text File Encoding' + 'New Text File Line Delimiter'
