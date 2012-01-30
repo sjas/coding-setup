@@ -20,6 +20,9 @@ ECLIPE SETUP FROM SCRATCH (working for Eclipse 3.6 and 3.7)
    	Use Theme: 
 		PREFERENCES:
 		General -> Appearance -> Color Theme:
+		'Vim Dark'
+
+		alternatives:
 		'Retta' or 'New Zenburn'
 		(Import the NewZenburn_to_import.xml from within the Preferences.)
 
@@ -47,8 +50,11 @@ ECLIPE SETUP FROM SCRATCH (working for Eclipse 3.6 and 3.7)
    	General -> Appearance -> Colors and Fonts
 		Basic >> Text Font, 'Edit'
 		possibly one of these, Droid is the smallest:
-			Envy Code R, size 8
-			Monaco, size 8
+			Lucida Sans Typewriter (Regular), size 7
+
+			alternatives:
+			Envy Code R, size 7/8
+			Monaco --> only sharp at bigger sizes!
 			Droid Sans Mono, size 8
    shown amount of recently opened files:
   	General -> Editors:
