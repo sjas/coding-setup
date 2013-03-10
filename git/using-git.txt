@@ -1,0 +1,63 @@
+++++++++++++++++++++
+HELPFUL GIT COMMANDS
+++++++++++++++++++++
+
+SHOW COMMITS PRESENT IN LOCAL AND REMOTE BRANCHES:
+    git show-branch --color=always -a --more=10 --no-name
+CONCISE OVERVIEW OF HISTORY:
+    git log --graph --oneline --decorate=short
+SVN LIKE STATUS VIEW:
+    git status -uno --short
+SHOW (CURRENT) CHANGES
+    git diff HEAD <filename?>
+    git diff --staged head <filename?>
+    git show
+DISCARD CHANGES IN WORKING COPY AND INDEX:
+    git reset --hard head
+AMEND LAST COMMIT / CHANGE LAST COMMIT MESSAGE:
+    git commit --amend -C HEAD
+REMOVE FILE/FOLDER FROM VERSIONING AND WORKING COPY:
+    git rm -r ...
+REMOVE FROM INDEX BUT LEAVE CHANGES IN WORKING COPY:
+    git rm -r --staged ...
+
+SHOW REMOTES:
+    git remote -v
+ADD REMOTES:
+    git remote add <name> <url>
+NEED HELP?
+    git help remote
+
+HOW TO PROPERLY REBASE:
+    git fetch
+    git checkout -b <branchname>
+    git rebase <branch vorher>
+    git checkout <branch vorher>
+    git rebase <branchname>
+
+fetch - im master: rebase <branchname>
+
+ABOUT GIT RESET: (BEST MANUAL YOU CAN GET)
+http://git-scm.com/2011/07/11/reset.html
+
+HOW TO USE THE GIT-SVN BRIDGE:
+svn checkout:
+    git svn clone <svn repo url>
+
+<use git as you are used to>
+<but refrain from branching, in order to keep a linear history>
+<so exporting things back to svn again is no problem>
+
+svn update:
+    git svn rebase
+
+'svn commit': (this is more like pushing changes back to the svn repo)
+    git svn dcommit
+
+GITHUB AND USER CREDENTIALS: 
+    git clone https://<username>:<password>@github.com/<username>/<repository>.git
+(That way you don't have to enter you username:password combo everytime you push back to the repo)
+
+
+sjas
+Mo, 11. Mrz 2013 00:58:52
