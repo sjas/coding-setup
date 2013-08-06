@@ -1,0 +1,11 @@
+Install Plugins: (Alt + H + S)
+
+COLOR THEME - http://eclipse-color-theme.github.com/update
+Use Theme: 
+    PREFERENCES:
+    General -> Appearance -> Color Theme:
+    'Vim Dark'
+
+    alternatives:
+    'Retta' or 'New Zenburn'
+    (Import the NewZenburn_to_import.xml from within the Preferences.)

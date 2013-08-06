@@ -1,0 +1,9 @@
+Install Plugins: (Alt + H + S)
+
+VRAPPER - http://vrapper.sourceforge.net/update-site/stable
+Set 'Ctrl + Alt + Shift + V' as a short for toggling it:
+    PREFERENCES: (Alt + W + P)
+    General -> Keys:
+        search for 'vrapper'
+        set 'Binding' to 'Ctrl+Alt+Shift+V'
+        set 'When' to 'In Windows'
