@@ -1,0 +1,73 @@
+antivir
+change to us keyboard layout
+background
+desktop icons
+show hidden files
+show file extensions
+taskbar
+make german keyboard layout switchable from taskbar
+give each keyboard layout a different icon
+disable shortcuts for switching keyboard layouts/languages
+make deutsch-US the standard
+turn off sleep when putting the lid down
+turn of sleep mode after like 15 minutes when having the power chord attached
+map caps to ctrl... use registry patch
+turn off 'administrator rights needed' in windows (turn slider all way down)
+chrome
+vimium
+chrome 'always show bookmarks' and add add-to-delicious shortcut
+set 'duckduckgo' as chrome search engine
+change privacy settings in chrome
+svn with commandline tools
+git (also to have a minimalistic shell.. scratch that, use cygwin)
+dotfiles
+vim install
+vim config files
+'open with vim' context menu entry
+cygwin
+change fonts
+drivers
+f.lux
+katmouse
+.ssh
+printer
+irfanview
+7zip
+asciidoc (through cygwin)
+foxit
+thunderbird
+dropbox (there resides working stuff)
+skype
+pidgin
+dont forget the PATH settings
+EDITOR VISUAL PAGER SVN_EDITOR
+files back on hdd (WORK MP3 READ)
+miktex
+texmaker
+java sdk
+pdfsam
+sumatraPDF
+python27
+jenkins
+notepad++
+
+
+FORMERLY USED:
+itunes
+pdf xchange viewer
+adobe suite
+bullzip pdf printer
+winamp
+winamp keycontrol
+codecs
+vlc
+mutt
+seamonkey
+opera
+firefox
+maxthon
+putty (obsolete?)
+ftprush
+teamviewer
+vnc
+daemon tools
