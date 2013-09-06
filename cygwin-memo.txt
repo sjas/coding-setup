@@ -1,0 +1,7 @@
+install cygwin
+
+link external programs if needed (vim?)
+
+set shell in /etc/passwd
+
+dotfiles/shellsettings
